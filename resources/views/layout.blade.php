@@ -4,6 +4,11 @@
 <head>
     <title>@yield('title', 'Laracasts')</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <style>
+        .is-complete {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 
 <body>
