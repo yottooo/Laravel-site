@@ -1,5 +1,5 @@
 # Project Management system
-## Curent functionality:
+### Curent functionality:
 Registration \
 Projects creation \
 Tasks can be assigned to a project \
