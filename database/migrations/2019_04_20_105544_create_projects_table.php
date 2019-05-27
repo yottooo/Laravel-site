@@ -15,9 +15,11 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->Increments('id');
+            $table->unsignedInteger('owner_id')->references('id')->on('users');
             $table->string('title');
             $table->text('description');
             $table->timestamps();
+
         });
     }
 
