@@ -23,6 +23,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -30,6 +31,7 @@
 
 <body>
     <div id="app">
+
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
@@ -83,6 +85,7 @@
                 </div>
             </div>
         </nav>
+        <example-component></example-component>
     </div>
     @yield('content')
     <ul>
@@ -93,6 +96,7 @@
         <li><a href="/projects/create">Create a new project</a></li>
     </ul>
 
+    <script src="/js/app.js"></script>
 </body>
 
 </html>

@@ -10,6 +10,10 @@ class Project extends Model
 
         'title', 'description',
     ];
+    public function owner()
+    {
+        return $this->belongsto(User::class);
+    }
 
     public function tasks()
     {
